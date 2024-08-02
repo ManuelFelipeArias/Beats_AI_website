@@ -9,11 +9,12 @@ import RoadMap from "./components/RoadMap";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Services from "./components/Services";
 import { SpeedInsights } from "@vercel/speed-insights/react"
-<SpeedInsights/>
+
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <SpeedInsights/>
         <Header />
         <Hero />
         <Benifits />
