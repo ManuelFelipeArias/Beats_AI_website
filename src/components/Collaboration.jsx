@@ -31,7 +31,7 @@ const Collaboration = () => {
             className={"mt-5"}
             onClick={() => window.open('https://56dc-8-242-215-218.ngrok-free.app/', '_blank', 'noopener noreferrer')}
           >
-            Pruena Ahora!
+            Prueba Ahora!
           </Button>
         </div>
 

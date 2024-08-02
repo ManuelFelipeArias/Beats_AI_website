@@ -20,7 +20,7 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price  && (
               <>
-                <div className="h-2">₹</div>
+                <div className="h-2">$</div>
                 <div className="text-[5.5rem] leading-none font-bold">
                   {item.price}
                 </div>
@@ -30,10 +30,9 @@ const PricingList = () => {
 
           <Button
             className={` w-full mb-6`}
-            href={item.price ? "/pricing" : "mailto:csyadav0513@gmail.com"}
-            white={!!item.price}
+            href= "https://api.whatsapp.com/send/?phone=573138445211&text&type=phone_number&app_absent=0"
           >
-            {item.price ? "Get Started" : "Contact us"}
+            {item.price ? "Empieza ya" : "Contactanos"}
           </Button>
 
           <ul>

@@ -28,8 +28,8 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          tag="Get started with BeatsAI"
-          title={"Pay once, use forever"}
+          tag="Optimiza con BeatsAI!"
+          title={"Paga una vez y será tu proyecto por siempre!"}
         />
 
         <div className="relative">
@@ -43,7 +43,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b "
             href="/pricing"
           >
-            See the full details
+            Mira los detalles en CONTACTANOS
           </a>
         </div>
       </div>
