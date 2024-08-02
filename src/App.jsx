@@ -8,7 +8,8 @@ import Pricing from "./components/Pricing";
 import RoadMap from "./components/RoadMap";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Services from "./components/Services";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
+<SpeedInsights/>
 const App = () => {
   return (
     <>
